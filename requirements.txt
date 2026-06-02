@@ -1,0 +1,42 @@
+# API
+fastapi
+uvicorn[standard]
+
+# Config
+pydantic
+pydantic-settings
+python-dotenv
+python-multipart
+
+# Document Processing
+pymupdf
+python-docx
+
+# Chunking
+langchain-text-splitters
+
+# Embeddings & Reranking
+sentence-transformers
+torch
+
+# Vector Database
+pymilvus[milvus_lite]
+
+# Sparse Retrieval
+rank-bm25
+
+# LLM
+google-generativeai
+
+# Numerical Operations
+numpy
+
+# Validation & Utilities
+tqdm
+
+# Testing
+pytest
+httpx
+
+# Optional Docker Healthchecks
+requests

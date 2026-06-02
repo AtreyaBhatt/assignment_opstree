@@ -1,0 +1,67 @@
+# Environment variables
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build artifacts
+build/
+dist/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Docker
+*.pid
+
+# Milvus local data (if applicable)
+volumes/
+data/
+
+# Model files
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Vector databases
+chroma_db/
+faiss_index/
+storage/
+
+# Uploaded documents
+uploads/
+documents/
+
+# Temporary files
+tmp/
+temp/
